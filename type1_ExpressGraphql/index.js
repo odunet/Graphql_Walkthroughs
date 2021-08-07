@@ -43,7 +43,8 @@ const post_ = [
 ]
 
 var root = {
-  hello: () => 'Hello world!', child: ({ id }) => {
+  hello: () => 'Hello world!',
+  child: ({ id }) => {
     if (id === 5) { return { id: id, omo1: 'Itohan' } } else {
       return { id: id, omo1: 'Tiwatope' }
     }

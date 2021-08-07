@@ -14,7 +14,8 @@ var typeDefs = gql`
 // Same as root in express-GraphQL
 var resolvers = {
   Query: {
-    hello: () => 'Hello world!', array: () => ({
+    hello: () => 'Hello world!',
+    array: () => ({
       name: 'Ayokunle', age: 32, school: 'Lasu', countries: [
         {
           country: 'Nigeria',
@@ -34,7 +35,7 @@ var resolvers = {
         return customer.age === args.age
       })
 
-      return { ...customer[0] }
+      return customer[0]
 
     }
   }

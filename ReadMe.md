@@ -1,6 +1,6 @@
 # Walkthrough implementation of GraphQL in NodeJS
 
-This implementaton uses two popular libraries i.e.
+The implementatons use two popular libraries i.e.
 - Express GraphqL
 ```
 yarn add express-graphql
