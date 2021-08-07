@@ -1,0 +1,53 @@
+[
+  {
+    "firstName": "Joe",
+    "lastName": "Jackson",
+    "gender": "male",
+    "age": 28,
+    "address": {
+      "streetAddress": "101",
+      "city": "San Diego",
+      "state": "CA"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "7349282382"
+      }
+    ]
+  },
+  {
+    "firstName": "doe",
+    "lastName": "Micheal",
+    "gender": "male",
+    "age": 22,
+    "address": {
+      "streetAddress": "10",
+      "city": "San Hose",
+      "state": "CA"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "734567788787"
+      }
+    ]
+  },
+  {
+    "firstName": "Mary",
+    "lastName": "Jane",
+    "gender": "female",
+    "age": 12,
+    "address": {
+      "streetAddress": "10",
+      "city": "ST Paul",
+      "state": "MI"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "735454645787"
+      }
+    ]
+  }
+]
